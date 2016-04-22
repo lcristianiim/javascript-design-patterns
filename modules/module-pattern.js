@@ -13,6 +13,10 @@ var invoiceManager = (function () {
 
 })();
 
+// Outputs: [ 'gas invoice' ]
 invoiceManager.getInvoices();
+
 invoiceManager.addInvoice('phone invoice');
+
+// Outputs: [ 'gas invoice', 'phone invoice' ]
 invoiceManager.getInvoices();

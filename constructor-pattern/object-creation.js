@@ -20,6 +20,11 @@ People.prototype.getName = function () {
 var person1 = new People ('Jenny', 21, 'female');
 var person2 = new People ('Jack', 29, 'male');
 
+// Outputs: Jenny is 21 years old and it is a female.
 console.log (person1.getDescription());
+
+// Outputs: Jack is 29 years old and it is a male.
 console.log (person2.getDescription());
+
+// Outputs: The name of this person is Jenny.
 console.log (person1.getName());

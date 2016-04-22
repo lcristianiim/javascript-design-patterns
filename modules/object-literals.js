@@ -16,7 +16,13 @@ var myModule = {
     }
 }
 
+// Outputs: The fisherman is available.
 myModule.showStatus();
+
 myModule.changeAvailability(false);
+
+// Outputs: The fisherman is not available.
 myModule.showStatus();
+
+// Outputs: fisherman.
 console.log(myModule.name);
