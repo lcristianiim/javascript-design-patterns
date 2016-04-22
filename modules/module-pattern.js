@@ -1,6 +1,5 @@
 var invoiceManager = (function () {
     // This variables are private
-    var self = this;
     var invoices = ['gas invoice'];
 
     // Return an object exposed to the public
